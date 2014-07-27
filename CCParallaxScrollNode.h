@@ -26,7 +26,6 @@ public:
 	virtual bool init();
 	CREATE_FUNC(CCParallaxScrollNode);
   
-  SpriteBatchNode batch;
   Size _range;
   
   cocos2d::Vector<CCParallaxScrollOffset *> _scrollOffsets;
